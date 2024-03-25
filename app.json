@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.yourcompany.yourappname",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "72ba7e51-716e-495e-94a5-6ed4b2db91f0"
+      }
     }
   }
 }
